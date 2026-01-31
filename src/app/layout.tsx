@@ -1,18 +1,19 @@
-<body>
-  <header className="site-header">
-    <nav className="nav">
-      <a href="/">Kaatib Yusuf</a>
-      <div className="nav-links">
-        <a href="/about">About</a>
-        <a href="/projects">Projects</a>
-        <a href="/contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+import type { Metadata } from "next";
+import "./globals.css";
 
-  <main className="container">{children}</main>
+export const metadata: Metadata = {
+  title: "Kaatib Yusuf",
+  description: "Personal website of Kaatib Yusuf",
+};
 
-  <footer className="footer">
-    © {new Date().getFullYear()} Kaatib Yusuf. Built with Next.js.
-  </footer>
-</body>
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
