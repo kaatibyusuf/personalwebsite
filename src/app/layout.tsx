@@ -1,20 +1,18 @@
-import type { Metadata } from "next";
-import "./globals.css";
+<body>
+  <header className="site-header">
+    <nav className="nav">
+      <a href="/">Kaatib Yusuf</a>
+      <div className="nav-links">
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-export const metadata: Metadata = {
-  title: "Kaatib Yusuf",
-  description: "Personal website of Kaatib Yusuf",
-};
+  <main className="container">{children}</main>
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
- 
+  <footer className="footer">
+    © {new Date().getFullYear()} Kaatib Yusuf. Built with Next.js.
+  </footer>
+</body>
