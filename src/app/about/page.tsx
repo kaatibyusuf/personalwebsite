@@ -12,7 +12,7 @@ export default function AboutPage() {
           <h2 className="cardTitle">Background</h2>
           <p className="cardText">
             I’m interested in software, learning, faith, and long-term personal growth.
-            This site is a public record of what I’m building and learning over time.
+            This site documents what I’m building and learning over time.
           </p>
         </div>
 

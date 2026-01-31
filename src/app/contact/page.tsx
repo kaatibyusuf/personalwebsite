@@ -11,16 +11,16 @@ export default function ContactPage() {
         <div className="card">
           <h2 className="cardTitle">Email</h2>
           <p className="cardText">
-            <a href="mailto:kaatibyusuf@gmail.com">
-              kaatibyusuf@gmail.com
-            </a>
+            <a href="mailto:kaatibyusuf@gmail.com">kaatibyusuf@gmail.com</a>
           </p>
         </div>
 
         <div className="card">
-          <h2 className="cardTitle">Online</h2>
+          <h2 className="cardTitle">GitHub</h2>
           <p className="cardText">
-            GitHub and writing links will live here as the site grows.
+            <a href="https://github.com/kaatibyusuf" target="_blank" rel="noreferrer">
+              github.com/kaatibyusuf
+            </a>
           </p>
         </div>
       </div>

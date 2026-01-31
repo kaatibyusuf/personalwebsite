@@ -1,15 +1,15 @@
 const projects = [
   {
     title: "Personal Website",
-    description: "This site. Built with Next.js and deployed on GitHub Pages.",
+    description: "Built with Next.js and deployed on GitHub Pages.",
   },
   {
     title: "Learning & Writing",
-    description: "Notes, essays, and reflections on growth, craft, and faith.",
+    description: "Notes and essays on growth, faith, and craft.",
   },
   {
-    title: "Future Projects",
-    description: "More work will be added here as I ship consistently.",
+    title: "Next Builds",
+    description: "More projects will be added here as I ship consistently.",
   },
 ];
 
@@ -19,7 +19,7 @@ export default function ProjectsPage() {
       <h1 className="headline">Projects</h1>
 
       <p className="subhead">
-        A small list of things I’ve built or I’m actively working on.
+        A small list of what I’m building.
       </p>
 
       <div className="grid">
